@@ -1,11 +1,15 @@
 #include <unistd.h>
 
-void    printZ(char c) {
+void    put_char(char c)
+{
     write(1, &c, 1);
+
 }
 
+/*
 int main(void)
 {
-    printZ('Z');
+    put_char('z');
     return 0;
 }
+*/
